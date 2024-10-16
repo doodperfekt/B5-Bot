@@ -16,16 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install Dependencies
-        run: |
-          sudo apt update
-          sudo apt install -y cmake g++ libcurl4-openssl-dev libssl-dev
-
-      - name: Build Bot
-        run: |
-          cmake .
-          make
-
       - name: Run Discord bot
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
