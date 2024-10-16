@@ -1,6 +1,7 @@
+#include <cstdlib>
 #include <dpp/dpp.h>
  
-const std::string BOT_TOKEN = "HEHE";
+const std::string BOT_TOKEN = std::getenv("BOT_TOKEN");
  
 int main() {
     dpp::cluster bot(BOT_TOKEN);
