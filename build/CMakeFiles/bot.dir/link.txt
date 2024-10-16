@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/bot.dir/bot.cpp.o -o bot  -Wl,-rpath,/home/bakajal/B5-Bot/build/dpp/library dpp/library/libdpp.so.SOVERSION /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libopus.so -lm 
